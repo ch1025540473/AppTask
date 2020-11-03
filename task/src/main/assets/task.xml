@@ -1,0 +1,9 @@
+<taskList>
+
+    <task name="com.ch.task.TaskA" />
+    <task name="com.ch.task.TaskB" depended="com.ch.task.TaskA" />
+    <task name="com.ch.task.TaskC" thread = "main"/>
+    <task name="com.ch.task.TaskD" depended="com.ch.task.TaskB,com.ch.task.TaskC" />
+    <task name="com.ch.task.TaskE" depended="com.ch.task.TaskA,com.ch.task.TaskC" />
+
+</taskList>
